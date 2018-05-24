@@ -246,7 +246,7 @@ section p {
 
 @media only screen and (max-width: 600px) {
   .blurb {
-      max-width: 350px;
+      max-width: 300px;
       padding-top: 20px;
   }
 }
