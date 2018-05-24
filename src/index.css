@@ -1,0 +1,36 @@
+body{
+  color: #000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+a, abbr, acronym, address, applet, big, blockquote, body,
+button, caption, cite, code, dd,
+del, dfn, div, dl, dt, em, fieldset,
+form, h1, h2, h3, h4, h5, h6, html, iframe, img,
+input, ins, kbd, label, legend, li, object, ol, p,
+pre, q, s, samp, small, span, strike, strong, sub,
+sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+a{
+  text-decoration: none;
+}
+
+a img{
+  border: none;
+}
+
+ul, ol {
+  list-style: none;
+}
