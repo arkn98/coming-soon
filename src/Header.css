@@ -79,12 +79,6 @@
     }
 }
 
-@media only screen and (max-width: 430px) {
-    .headerInner {
-        justify-content: center;
-    }
-}
-
 .headerInner,
 .headerLogo {
     display: -webkit-box;
