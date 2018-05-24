@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import Header from './Header';
 import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 
-class App extends Component {
+class App extends PureComponent {
   render() {
     return (
       <BrowserRouter>
