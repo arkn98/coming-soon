@@ -2,9 +2,9 @@
 
 A simple coming soon page built using [create-react-app](https://github.com/facebook/create-react-app).
 
-#### Note
+Demo [here](https://arkn98.github.io/coming-soon/).
 
-I created this as an exercise when I was learning React. So please be mindful of many things that are considered "non-optimal".
+**Note:** I created this as an exercise when I was learning React. So please be mindful of many things that are considered "non-optimal".
 
 ## Getting started
 
