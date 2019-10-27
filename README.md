@@ -26,4 +26,11 @@ Demo [here](https://arkn98.github.io/coming-soon/).
 
 ## License
 
-MIT
+**Code**<br>
+[![License](https://img.shields.io/github/license/arkn98/coming-soon?label=License)](LICENSE)
+
+**Assets**<br>
+Social Icons from [simple-icons](https://github.com/simple-icons/simple-icons) - CC0-1.0
+
+**Fonts**<br>
+[IBM Plex](https://github.com/IBM/plex) by IBM - OFL-1.1
