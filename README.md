@@ -1,4 +1,29 @@
+# coming-soon
 
-#### Caution: I'm a complete newbie to web development and programming as a whole! Be mindful of non `DRY` code, hacks, CSS styles, etc. that is screaming __"Just work!!"__. No attention was paid to page load times, bundle sizes and responsiveness as a whole. 
-___
-A basic coming soon page built using [create-react-app](https://github.com/facebook/create-react-app).
+A simple coming soon page built using [create-react-app](https://github.com/facebook/create-react-app).
+
+#### Note
+
+I created this as an exercise when I was learning React. So please be mindful of many things that are considered "non-optimal".
+
+## Getting started
+
+### Installation
+
+1. Clone this repository
+2. `cd coming-soon` to go into the project root
+3. `yarn` to install dependencies
+
+### Running locally
+
+1. `yarn start` to start the hot-reloading server
+2. open `http://localhost:3000` on your browser
+
+### Building
+
+1. `yarn build` to build the app
+2. Copy the contents of the `build` folder and serve it with your own server
+
+## License
+
+MIT
