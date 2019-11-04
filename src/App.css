@@ -30,6 +30,11 @@
 .logo {
   font-weight: bold;
   font-size: 1.5em;
+  transition: opacity 0.05s ease;
+}
+
+.logo:hover {
+  opacity: 0.75;
 }
 
 .social {
@@ -39,10 +44,15 @@
 .social a {
   display: inline-block;
   margin-right: 12px;
+  transition: opacity 0.05s ease;
 }
 
 .social a:last-child {
   margin-right: 0;
+}
+
+.social a:hover {
+  opacity: 0.75;
 }
 
 .social .icon {
@@ -95,7 +105,7 @@
   font-weight: bold;
   transform: none;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
-  transition: box-shadow .3s cubic-bezier(.25, .25, .315, 1.35), transform .1s linear;
+  transition: box-shadow 0.3s cubic-bezier(0.25, 0.25, 0.315, 1.35), transform 0.1s linear;
 }
 
 .content .cta:hover {
@@ -111,6 +121,7 @@
   color: #fff;
   font-size: 14px;
   font-weight: 500;
+  text-align: center;
 }
 
 a.underlined:hover {

@@ -7,7 +7,7 @@ import "./App.css";
 class App extends React.Component {
   ctaOnClick = event => {
     event.preventDefault();
-    window.location.href = "mailto:positronxpn@gmail.com"
+    window.location.href = "mailto:user@example.com"
   }
 
   render = () => {
@@ -37,7 +37,7 @@ class App extends React.Component {
           <div className="cta" onClick={this.ctaOnClick}>Send us an email</div>
         </div>
         <div className="footer">
-          <span>made by <a className="underlined" href="https://github.com/arkn98" target="_blank" rel="noopener noreferrer">arkn98</a> using <a className="underlined" href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a>.</span>
+          <span>made by <a className="underlined" href="https://github.com/arkn98" target="_blank" rel="noopener noreferrer">arkn98</a> using <a className="underlined" href="https://reactjs.org/" title="ReactJS" target="_blank" rel="noopener noreferrer">React</a> | <a className="underlined" href="https://github.com/arkn98/coming-soon" title="GitHub repo" target="_blank" rel="noopener noreferrer">GitHub</a></span>
         </div>
       </div>
     );

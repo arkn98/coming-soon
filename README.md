@@ -27,10 +27,12 @@ Demo [here](https://arkn98.github.io/coming-soon/).
 ## License
 
 **Code**<br>
-[![License](https://img.shields.io/github/license/arkn98/coming-soon?label=License)](LICENSE)
+[![License](https://img.shields.io/github/license/arkn98/coming-soon)](LICENSE)
 
 **Assets**<br>
-Social Icons from [simple-icons](https://github.com/simple-icons/simple-icons) - CC0-1.0
+Social Icons from [simple-icons](https://github.com/simple-icons/simple-icons)<br>
+![License](https://img.shields.io/github/license/simple-icons/simple-icons)
 
 **Fonts**<br>
-[IBM Plex](https://github.com/IBM/plex) by IBM - OFL-1.1
+[IBM Plex](https://github.com/IBM/plex) by IBM<br>
+![License](https://img.shields.io/github/license/IBM/plex)

@@ -3,10 +3,11 @@
 }
 
 body {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -14,7 +15,8 @@ a {
   text-decoration: none;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: inherit;
 }
 
