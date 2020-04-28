@@ -31,8 +31,9 @@ Demo [here](https://arkn98.github.io/coming-soon/).
 
 **Assets**<br>
 Social Icons from [simple-icons](https://github.com/simple-icons/simple-icons)<br>
-![License](https://img.shields.io/github/license/simple-icons/simple-icons)
+[![License](https://img.shields.io/github/license/simple-icons/simple-icons)](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md)
 
 **Fonts**<br>
 [IBM Plex](https://github.com/IBM/plex) by IBM<br>
-![License](https://img.shields.io/github/license/IBM/plex)
+[![License](https://img.shields.io/github/license/IBM/plex)](https://github.com/IBM/plex/blob/master/LICENSE.txt)
+
