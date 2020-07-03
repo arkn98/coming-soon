@@ -1,0 +1,53 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  build:
+    name: build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+
+      - name: Set up Node environment
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build app
+        run: yarn build
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: build
+          path: ./build
+
+  deploy:
+    name: deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Get build artifacts
+        with:
+          name: build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          commit_message: ${{ github.event.head_commit.message }}
