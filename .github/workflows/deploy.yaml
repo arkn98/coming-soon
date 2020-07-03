@@ -45,16 +45,14 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: build
+          path: ./build
 
-      - name: Display structure of downloaded files
-        run: ls -R
+      - name: Clear gh-pages cache
+        run: ./node_modules/gh-pages/bin/gh-pages-clean
 
-#      - name: Clear gh-pages cache
-#        run: ./node_modules/gh-pages/bin/gh-pages-clean
-#
-#      - name: Deploy
-#        uses: peaceiris/actions-gh-pages@v3
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
-#          publish_dir: ./build
-#          commit_message: ${{ github.event.head_commit.message }}
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          commit_message: ${{ github.event.head_commit.message }}
