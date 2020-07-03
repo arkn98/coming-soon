@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/coming-soon/static/css/main.a4680a29.chunk.css",
-    "main.js": "/coming-soon/static/js/main.571061d0.chunk.js",
-    "main.js.map": "/coming-soon/static/js/main.571061d0.chunk.js.map",
-    "runtime-main.js": "/coming-soon/static/js/runtime-main.a9322883.js",
-    "runtime-main.js.map": "/coming-soon/static/js/runtime-main.a9322883.js.map",
-    "static/js/2.9d31c578.chunk.js": "/coming-soon/static/js/2.9d31c578.chunk.js",
-    "static/js/2.9d31c578.chunk.js.map": "/coming-soon/static/js/2.9d31c578.chunk.js.map",
+    "main.css": "/coming-soon/static/css/main.ec639678.chunk.css",
+    "main.js": "/coming-soon/static/js/main.8e62c2ed.chunk.js",
+    "main.js.map": "/coming-soon/static/js/main.8e62c2ed.chunk.js.map",
+    "runtime-main.js": "/coming-soon/static/js/runtime-main.7af92772.js",
+    "runtime-main.js.map": "/coming-soon/static/js/runtime-main.7af92772.js.map",
+    "static/js/2.58aaed71.chunk.js": "/coming-soon/static/js/2.58aaed71.chunk.js",
+    "static/js/2.58aaed71.chunk.js.map": "/coming-soon/static/js/2.58aaed71.chunk.js.map",
     "index.html": "/coming-soon/index.html",
-    "precache-manifest.17043fe9eb1d9c65ffcacae5c2ff7b4a.js": "/coming-soon/precache-manifest.17043fe9eb1d9c65ffcacae5c2ff7b4a.js",
+    "precache-manifest.b2b1ad26ca1a41eae08b63718aa2fa57.js": "/coming-soon/precache-manifest.b2b1ad26ca1a41eae08b63718aa2fa57.js",
     "service-worker.js": "/coming-soon/service-worker.js",
-    "static/css/main.a4680a29.chunk.css.map": "/coming-soon/static/css/main.a4680a29.chunk.css.map",
-    "static/js/2.9d31c578.chunk.js.LICENSE.txt": "/coming-soon/static/js/2.9d31c578.chunk.js.LICENSE.txt",
+    "static/css/main.ec639678.chunk.css.map": "/coming-soon/static/css/main.ec639678.chunk.css.map",
+    "static/js/2.58aaed71.chunk.js.LICENSE.txt": "/coming-soon/static/js/2.58aaed71.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/coming-soon/static/media/IBMPlexSans-Regular.c02b4dc6.ttf",
     "static/media/facebook.50f13391.svg": "/coming-soon/static/media/facebook.50f13391.svg",
     "static/media/github.baf48a32.svg": "/coming-soon/static/media/github.baf48a32.svg",
     "static/media/twitter.a50716dd.svg": "/coming-soon/static/media/twitter.a50716dd.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a9322883.js",
-    "static/js/2.9d31c578.chunk.js",
-    "static/css/main.a4680a29.chunk.css",
-    "static/js/main.571061d0.chunk.js"
+    "static/js/runtime-main.7af92772.js",
+    "static/js/2.58aaed71.chunk.js",
+    "static/css/main.ec639678.chunk.css",
+    "static/js/main.8e62c2ed.chunk.js"
   ]
 }
