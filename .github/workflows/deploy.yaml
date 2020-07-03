@@ -46,6 +46,9 @@ jobs:
         with:
           name: build
 
+      - name: Clear gh-pages cache
+        run: ./node_modules/gh-pages/bin/gh-pages-clean
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
